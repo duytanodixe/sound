@@ -1,0 +1,53 @@
+/* Spotify-inspired dark green/black theme */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #191414 0%, #23272f 100%);
+    -fx-font-family: 'Segoe UI', 'Arial', sans-serif;
+    -fx-text-fill: #e0ffe0;
+}
+.label, .text, .table-view, .list-view, .tab, .tab-label {
+    -fx-text-fill: #e0ffe0;
+}
+.button {
+    -fx-background-color: linear-gradient(to bottom, #1EDD6A 0%, #1ed760 100%);
+    -fx-text-fill: #191414;
+    -fx-background-radius: 20;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #191414, 2, 0.2, 0, 1);
+    -fx-padding: 8 20 8 20;
+    -fx-font-size: 14px;
+}
+.button:hover {
+    -fx-background-color: #1EDD6A;
+    -fx-text-fill: #191414;
+}
+.text-field, .password-field, .combo-box, .choice-box, .table-view, .list-view {
+    -fx-background-color: #23272f;
+    -fx-text-fill: #e0ffe0;
+    -fx-border-color: #1EDD6A;
+    -fx-border-radius: 12;
+    -fx-font-size: 13px;
+}
+.menu-bar, .menu, .menu-item {
+    -fx-background-color: #191414;
+    -fx-text-fill: #e0ffe0;
+}
+.tab-pane {
+    -fx-background-color: #23272f;
+}
+.tab {
+    -fx-background-color: #23272f;
+    -fx-text-fill: #e0ffe0;
+}
+.table-row-cell:filled:selected, .list-cell:filled:selected {
+    -fx-background-color: #1EDD6A;
+    -fx-text-fill: #191414;
+}
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-background-color: #23272f;
+}
+/* Banner styling */
+#bannerBox {
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+    -fx-padding: 0 0 10 0;
+}
