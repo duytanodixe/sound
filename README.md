@@ -85,9 +85,15 @@ SoundConverterOfficial/
 
 ```properties
 # Database Configuration
-db.url=jdbc:mysql://localhost:3306/soundconverter?createDatabaseIfNotExist=true
+db.url=jdbc:mysql://localhost:3306/soundconverter?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&connectionCollation=utf8mb4_unicode_ci
 db.user=root
 db.password=your_mysql_password
+
+# Application Settings
+app.encoding=UTF-8
+app.temp.dir=./temp
+app.output.encoding=UTF-8
+app.file.encoding=UTF-8
 ```
 
 > ⚠️ Ứng dụng sẽ tự động tạo cơ sở dữ liệu `soundconverter` và các bảng nếu chưa có.
