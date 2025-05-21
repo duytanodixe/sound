@@ -101,11 +101,12 @@ app.file.encoding=UTF-8
 ### **4. Cài đặt và chạy ứng dụng**
 
 1. Clone mã nguồn:
-  tải từ drive hoặc git
+  tải từ drive nếu dùng drive hãy cd(trỏ vào thư mục sound thư mục lớn nhất của ứng dụng chỗ mà bạn chọn tải về) ví dụ:"cd C:\Users\Tan\sound-"
+  hoặc git
   hướng dẫn dùng git
    ```bash
    git clone https://github.com/duytanodixe/AISOUND-
-   cd SoundConverterOfficial
+   cd AISOUND-
    ```
 
 2. Biên dịch với Maven:
