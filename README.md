@@ -101,6 +101,8 @@ app.file.encoding=UTF-8
 ### **4. Cài đặt và chạy ứng dụng**
 
 1. Clone mã nguồn:
+  tải từ drive hoặc git
+  hướng dẫn dùng git
    ```bash
    git clone https://github.com/duytanodixe/AISOUND-
    cd SoundConverterOfficial
@@ -113,7 +115,7 @@ app.file.encoding=UTF-8
 
 3. Chạy ứng dụng:
    ```bash
-   java -jar target/SoundConverterOfficial-1.0-SNAPSHOT.jar
+   java -jar target/AISOUND.jar
    ```
 
 ---
