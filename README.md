@@ -108,7 +108,21 @@ app.file.encoding=UTF-8
    git clone https://github.com/duytanodixe/AISOUND-
    cd AISOUND-
    ```
+  lưu ý đảm bảo bạn đã tạo file config và tải mysql và có mật khẩu như hướng dẫn ở trên
+  - Tạo file `config.properties` trong `src/main/resources/` dựa trên file mẫu `config.properties.example` và cập nhật như sau:
 
+  ```properties
+  # Database Configuration
+  db.url=jdbc:mysql://localhost:3306/soundconverter?createDatabaseIfNotExist=true&useUnicode=true&  characterEncoding=UTF-8&connectionCollation=utf8mb4_unicode_ci
+  db.user=root
+  db.password=your_mysql_password
+
+  # Application Settings
+  app.encoding=UTF-8
+  app.temp.dir=./temp
+  app.output.encoding=UTF-8
+  app.file.encoding=UTF-8
+  ```
 2. Biên dịch với Maven:
    ```bash
    mvn clean package
